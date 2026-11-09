@@ -6,7 +6,7 @@ import subprocess
 import ollama
 
 # Конфигурация
-MODEL_NAME = "qwen2.5-coder:7b" # Замените на вашу модель, если нужно
+MODEL_NAME = "qwen2.5-coder:7b" 
 OUTPUT_DIR = "output"
 
 def get_llm_response(prompt, system_prompt=""):
